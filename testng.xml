@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regressions Testsuite">
+	<!-- 
+	<test thread-count="5" name="Setup for Test execution">
+		<classes>
+			<class name="simplyTest.autoprojekt.BaseForTests" />
+		</classes>
+	</test>
+	-->
+	<test name="Tests validating application Messages">
+		<classes>
+			<class name="simplyTest.autoprojekt.MessageValidationTest" />
+		</classes>
+	</test>
+	
+	<test name="End to End Test">
+		<classes>
+			<class name="simplyTest.autoprojekt.E2ETest" />
+		</classes>
+	</test>
+	
+	<test name="Add an Item">
+		<classes>
+			<class name="simplyTest.autoprojekt.AddItemTest" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regressions Testsuite">
+	<!-- 
+	<test thread-count="5" name="Setup for Test execution">
+		<classes>
+			<class name="simplyTest.autoprojekt.BaseForTests" />
+		</classes>
+	</test>
+	-->
+	<test name = "All functional Tests">
+		<classes>
+			<!--class name="simplyTest.autoprojekt.BaseForTests"/>-->
+			<class name="simplyTest.autoprojekt.MessageValidationTest" />
+			<class name="simplyTest.autoprojekt.E2ETest" />
+			<class name="simplyTest.autoprojekt.AddItemTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,80 @@
+# ==========================================
+# 1. Maven & Build-Artefakte
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# 2. Java compilierte Dateien & Archive
+# ==========================================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.rar
+
+# ==========================================
+# 3. IDE-spezifische Dateien (Vollständig)
+# ==========================================
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+*.factorypath
+
+# ==========================================
+# 4. Test-Frameworks & Reports (Selenium/TestNG/JUnit)
+# ==========================================
+# TestNG standard outputs
+test-output/
+testng-failed.xml
+testng-reports.html
+
+# Surefire & Failsafe reports
+**/target/surefire-reports/
+**/target/failsafe-reports/
+
+# Extent Reports / Allure Reports / Cucumber
+# Falls Sie diese Frameworks nutzen, blockiert dies lokale Reports
+ExtentReports/
+extent-report.html
+.allure/
+allure-results/
+allure-report/
+
+# ==========================================
+# 5. WebDriver & Browser-Binärdateien
+# ==========================================
+# Lokale Treiber-Downloads (z.B. chromedriver.exe, geckodriver)
+drivers/
+binaries/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==========================================
+# 6. Betriebssystem-Reste & Logs
+# ==========================================
+*.log
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 7. Sicherheit & Konfigurationen
+# ==========================================
+# Schließt lokale Properties-Dateien aus, die Passwörter oder API-Keys enthalten
+*.env
+config.local.properties
+credentials.properties

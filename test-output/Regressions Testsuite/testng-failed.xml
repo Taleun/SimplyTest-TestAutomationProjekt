@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regressions Testsuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All functional Tests(failed)">
+    <classes>
+      <class name="simplyTest.autoprojekt.E2ETest">
+        <methods>
+          <include name="orderMultipleItemsTest"/>
+          <include name="startApplikation"/>
+          <include name="tearDown"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- simplyTest.autoprojekt.E2ETest -->
+      <class name="simplyTest.autoprojekt.AddItemTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startApplikation"/>
+          <include name="config"/>
+          <include name="addAnItem" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- simplyTest.autoprojekt.AddItemTest -->
+    </classes>
+  </test> <!-- All functional Tests(failed) -->
+</suite> <!-- Failed suite [Regressions Testsuite] -->
